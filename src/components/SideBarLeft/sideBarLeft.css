@@ -1,0 +1,38 @@
+.root-left{
+    width: 100px;
+    height: 100%;
+    color: #787A91;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    box-shadow: 1px 1px 10px rgb(70, 70, 70);
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.root-left img{
+    width: 80px;
+    height: 85px;
+    border-radius: 10px;
+}
+.icon{
+    font-size: 30px;
+}
+.nav-link{
+    margin: 20px auto ;
+    color: #787A91;
+    width: 80%;
+    height: auto;
+    border: solid 2px #fff;
+    padding: 2px;  
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: blueviolet;
+    border: solid 2px blueviolet;
+    border-radius: 5px;
+}

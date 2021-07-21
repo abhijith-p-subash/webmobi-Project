@@ -1,0 +1,11 @@
+.root-body{
+    width: auto;
+    height: 100%;
+    margin: 30px 150px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgb(70, 70, 70); 
+    display: flex;  
+    font-family: Open Sans;
+}
+

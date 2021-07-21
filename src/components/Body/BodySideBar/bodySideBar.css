@@ -1,0 +1,30 @@
+.event{
+    width: 25%;
+    color: rgb(68, 68, 68);
+}
+.event h2{
+    padding: 20px 10px 15px 10px;
+    font-weight: lighter;
+}
+.body-list{
+    margin: 20px 0px ;
+}
+.list-item{
+    cursor: pointer;
+    height: 40px;
+    position: relative;
+    padding-left: 10px;
+    border-left: solid 4px #fff;
+}
+.list-item:hover{
+    color: blueviolet;
+    background-color: rgb(214, 214, 214);
+    border-left: solid 4px blueviolet;
+}
+.list-item h3{
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import react, { useState } from "react";
+import LeftSideBar from "./components/SideBarLeft/sideBarLeft";
+import RightSideBar from "./components/SideBarRight/sideBarRight";
+import Header from "./components/Header/header";
+import Body from "./components/Body/body";
+
+
 
 function App() {
+  const [window, setWindow] = useState(true);
+
+  const toggle = (status) => {
+    setWindow(status);
+
+  }
+
+  console.log(window);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <LeftSideBar
+      toggle={toggle}
+      status={window}
+      />
+      <RightSideBar />
+      <Header />
+      {window ?  <Body toggle={toggle} /> : ""}
+     
     </div>
   );
 }

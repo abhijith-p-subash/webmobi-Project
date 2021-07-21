@@ -1,0 +1,43 @@
+.root-header{
+    overflow: hidden;
+    z-index: -1;
+    background-color: #fff;
+    margin: 0px 100px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgb(70, 70, 70);
+}
+
+.header-brand{ 
+    float: left;
+}
+.header-brand h1{
+    display: inline;
+    margin-left: 15px;
+}
+.brand-icon{
+    font-size: 26px;
+    -ms-transform: rotate(180deg);
+    transform: rotate(90deg) scaleX(-1);
+}
+
+.header-left{
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: auto;
+    height: 25px;
+    padding: 5px;
+    color: blueviolet;
+    border: solid blueviolet 1px;
+    border-radius: 5px;
+}
+
+.header-left h3{
+    display: inline;
+}
+.header-icons{
+    margin: -5px 3px;
+    border: solid blueviolet 1px;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
